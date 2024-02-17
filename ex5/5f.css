@@ -1,0 +1,34 @@
+p{
+    font-family: Arial;
+    text-align: justify;
+}
+.Aspan{
+margin-top: 2px;
+margin-bottom: 2px;
+}
+.a{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.b{
+    font-size: 14px;
+    margin-left: 6px;
+    color: gray;
+}
+.c{
+    color: green;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+.d{
+    margin-top: 2px;
+    font-size: 14px;
+}
+.e{
+    color: gray;
+}
+.f{
+color: red;
+}
