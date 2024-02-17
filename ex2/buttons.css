@@ -1,0 +1,29 @@
+
+.subs{background-color: rgb(200, 0,0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.join{
+    background-color: white;
+    color:rgb(93, 181, 194);
+    border-style: solid;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-color: rgb(93, 181, 194 );
+    margin-right: 5px;
+}
+.Tweet{
+    background-color: aqua(93, 181, 194);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+}
