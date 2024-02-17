@@ -1,0 +1,13 @@
+.t_box{
+    width: 550px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-size: 18px;
+    border-radius: 34px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);}
+
+

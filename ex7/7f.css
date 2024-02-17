@@ -1,0 +1,28 @@
+
+p{
+    color: gray;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.a{
+    border-radius: 3px;
+    border-color: black;
+    border-width: 1px;
+    width: 340px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+button{
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 29px;
+    border: none;
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    color: white;
+    background-color: rgb(87, 126, 241);}
