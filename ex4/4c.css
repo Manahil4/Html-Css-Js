@@ -1,0 +1,17 @@
+.Tweet{
+    background-color: rgb(44, 101, 18);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right:16px ;
+    cursor: pointer;
+     transition: box-shadows 0.2s;}
+     
+        .Tweet:hover
+        {
+
+            box-shadow:5px 5px 10px rgba(0,0,0,0.1);
+        }
