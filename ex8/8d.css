@@ -1,0 +1,32 @@
+.a {
+    vertical-align: middle;
+    width: 295px;
+    display: inline-block;
+    font-size: 28px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.b {
+    display: block;
+    margin-top: 15px;
+    font-size: 28px;
+    margin-bottom: 15px;
+    width: 610px;
+}
+
+button {
+    display: block;
+    width: 620px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(12, 65, 95);
+    color: white;
+    transition: box-shadow 0.2s;
+}
+
+button:active {
+    transform: translate(13px, 13px); /* Corrected the syntax here */
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.6);
+}
