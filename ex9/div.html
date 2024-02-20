@@ -1,0 +1,49 @@
+<!-- div is container that can contain other elements, in our youtube there are containers for each video  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube9</title>
+    <style>
+        .thumbnail{
+            width:300px;
+            display: block;
+        }
+        .search-bar{
+
+            font-size: 20px;
+            margin-left: 22px;
+        }
+        .title{
+            width:300px;
+        }
+        .author{
+            display: block;
+            }
+ 
+            div {
+                width: 300px;
+                overflow: hidden; /* This will hide any content that overflows the 300px width */
+            }
+            
+            .stats {
+                width: 100%; /* Set the width of stats paragraph to 100% of the parent div */
+                display: block; /* You can adjust overflow as needed */
+            }
+            
+    </style>
+    <!-- Comment in Html:By setting div's width to 300px, author and stats take 300px (Block element; takes entire line in container, not on the entire page)  -->
+
+
+</head>
+<body>
+    <input class="search-bar" type="text" placeholder="Search" >
+
+    <div><img class="thumbnail" src="C:\Users\Tesla Laptops\Desktop\git_demo\Html-project-1\thumbnails\thumbnail-1 (1).webp">
+        <p class="title">Talking tech and AI with Google CEO Sundar Pichai&#33;</p>
+        <p class="author">Marques Brownlee</p>
+        <p class="stats">3.4 M views &#183;6montcfdjgkigurhngfhjtgfnvfmjkejoii5tm,vkfjoritlf,mdjgroitufjskr</p></div>
+
+</body>
+</html>
