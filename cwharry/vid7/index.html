@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Building a form" />
+  <title>Form</title>
+  <style>
+    div {
+      background-color: lightblue;
+      width: 500px;
+    }
+    h1 {
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #t1,
+    #t2 {
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+
+      border-bottom: 3px solid white;
+      background-color: lightblue;
+      text-align: justify;
+    }
+
+    .C {
+      text-align: center;
+      color: lightblue;
+      margin-top: 30px;
+      border: none;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <!-- Login Form -->
+  <div>
+    <h1>Login</h1>
+    <!-- Username input -->
+    <textarea name="name" id="t1" cols="30" rows="1">Username</textarea><br />
+    <!-- Password input -->
+    <textarea name="Password" id="t2" cols="30" rows="1">Password</textarea><br />
+
+    <!-- Remember me checkbox -->
+    <input type="checkbox" name="terms" value="tandc" id="ch1" />
+    <label for="ch1">Remember me</label><br />
+    
+    <!-- Submit button -->
+    <button class="C">SUBMIT</button>
+  </div>
+
+  <!-- Other Inputs -->
+  <!-- Username text input -->
+  <label for="i1">Username</label>
+  <input type="text" name="name" id="i1" placeholder="Type here" /><br />
+
+  <!-- Password input -->
+  <label for="i2">Password</label>
+  <input type="password" name="pass" id="i2" placeholder="Type here" /><br />
+
+  <!-- Gender selection -->
+  <label for="r1">Gender</label><br>
+  <input type="radio" name="gender" id="r1" value="male" />
+  <label for="r1">Male</label>
+  <br />
+  <input type="radio" name="gender" id="r2" value="female" />
+  <label for="r2">Female</label>
+  <br />
+
+ 
+  <!-- Country selection -->
+  <label for="op1">Country</label>
+  <select name="country" id="op1">
+    <option value="usa">USA</option>
+    <option value="pk">Pakistan</option>
+  </select>
+  <br>
+
+   <!-- Submit button -->
+   <input type="submit" value="Submit" /><br />
+
+</body>
+</html>
