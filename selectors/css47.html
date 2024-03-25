@@ -1,0 +1,61 @@
+<!-- selectors are name representation of html elements in css   -->
+<!-- 
+Simple selectors (e.g., element names, class names, ID selectors)
+Combinator selectors (e.g., descendant selectors, child selectors, adjacent sibling selectors, general sibling selectors)
+Attribute selectors (e.g., attribute existence, attribute value, attribute starts with, attribute ends with)
+Pseudo-classes (e.g., :hover, :focus, :nth-child())
+Pseudo-elements (e.g., ::before, ::after)
+Functional pseudo-classes (e.g., :not(), :nth-of-type())
+Structural pseudo-classes (e.g., :first-child, :last-child)
+ -->
+ <!-- 
+ five categories of simple selectors in CSS:
+
+1. **Element selectors:** These select elements based on their HTML tag names. For example:
+   ```css
+   p {
+       /* Styles applied to all <p> elements */
+   }
+   ```
+
+2. **Class selectors:** These select elements based on their class attribute. For example:
+   ```css
+   .btn {
+       /* Styles applied to all elements with class="btn" */
+   }
+   ```
+
+3. **ID selectors:** These select elements based on their ID attribute. Note that IDs should be unique within a document. For example:
+   ```css
+   #header {
+       /* Styles applied to the element with id="header" */
+   }
+   ```
+
+4. **Attribute selectors:** These select elements based on their attributes and attribute values. For example:
+   ```css
+   input[type="text"] {
+       /* Styles applied to all <input> elements with type="text" */
+   }
+   ```
+
+5. **Universal selector:** This selects all elements in the document. It's represented by an asterisk `*`. For example:
+   ```css
+   * {
+       /* Styles applied to all elements */
+   }
+   ```
+
+These are some of the fundamental simple selectors in CSS that allow you to target specific elements or groups of elements within a document.
+  -->
+  <!-- Grouping selectors are a way to apply styles to multiple elements without repeating the same style declarations for each individual selector. -->
+  <style>
+ 
+    h1, h2, h3 {
+        color: blue;
+        font-size: 24px;
+    }    
+  </style>
+    <div class="box">
+
+    </div>

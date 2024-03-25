@@ -1,0 +1,20 @@
+#container{
+    border: 3px solid rgb(51, 1, 235);
+}
+/* descendants of our container */
+#container p{
+    background-color: aqua;
+}
+/* direct child of our container */
+#container > p{
+    background-color: rgb(216, 116, 34);
+}
+/* general siblings of container */
+#container ~p ~ div {
+    background-color: rgb(143, 103, 194);
+}
+/* div of second class is sibling to container  */
+#container + div{
+    border: 3px solid rgb(109, 2, 112);
+    font-size: 50px;
+}
