@@ -49,6 +49,28 @@ Structural pseudo-classes (e.g., :first-child, :last-child)
 These are some of the fundamental simple selectors in CSS that allow you to target specific elements or groups of elements within a document.
   -->
   <!-- Grouping selectors are a way to apply styles to multiple elements without repeating the same style declarations for each individual selector. -->
+  <!-- Combinator selectors in CSS are used to specify relationships between different elements. Here are the types of combinator selectors:
+
+1. Descendant Selector: It selects an element that is a descendant of another specified element.
+   Example: `div p` selects all `<p>` elements that are descendants of `<div>` elements.
+
+2. Child Selector: It selects an element that is a direct child of another specified element.
+   Example: `div > p` selects all `<p>` elements that are immediate children of `<div>` elements.
+
+3. Adjacent Sibling Selector: It selects an element that is immediately preceded by a specified sibling element.
+   Example: `h2 + p` selects the `<p>` element that is immediately preceded by an `<h2>` element.
+
+4. General Sibling Selector: It selects all elements that are siblings of a specified element and share the same parent.
+   Example: `h2 ~ p` selects all `<p>` elements that are siblings of an `<h2>` element and share the same parent.
+
+These combinator selectors provide flexibility in targeting specific elements based on their relationships with other elements in the HTML structure. -->
+<!-- types of attribute selectors:
+
+Attribute Existence Selector: Selects elements that have the specified attribute, regardless of its value.
+Syntax: [attribute]
+
+Attribute Value Selector: Selects elements with the specified attribute and value.
+Syntax: [attribute="value"] -->
   <style>
  
     h1, h2, h3 {
