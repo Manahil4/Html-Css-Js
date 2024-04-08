@@ -1,1 +1,2 @@
-html and css course by SuperSimpleDev youtube channel
+Web Development Course
+Currently focusing on Frontend 
