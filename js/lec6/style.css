@@ -1,0 +1,17 @@
+body{
+    background-color: green;
+}
+div{
+    text-align: center;
+    }
+h1{
+    font: bold;
+    color: bisque;
+}
+h2{
+    font-style: italic;
+    color: rgb(226, 253, 107);
+}
+button{
+    background-color: blue;
+}
