@@ -43,12 +43,12 @@
 
 // // when making dom tree ignore text and comment node only work on elements tag of html. fist child (leftmost) property, last child(rightmost), use for navigation
 // console.dir(document.body.firstChild);//whitespaces are considered as text tag and if just after body there are spaces  considered as first child.as dom includes text, comment and html element for node
-let divTag=document.querySelector("div").children
-console.dir(divTag);
-let sec=document.querySelector("section");
-console.log(sec.innerText);
-console.dir(sec.innerText);
-console.log(sec.innerHTML);
-console.dir(sec.innerHTML);
-sec.innerText='dsfs';
-console.log(sec.innerHTML, sec.innerText);
+// let divTag=document.querySelector("div").children
+// console.dir(divTag);
+// let sec=document.querySelector("section");
+// console.log(sec.innerText);
+// console.dir(sec.innerText);
+// console.log(sec.innerHTML);
+// console.dir(sec.innerHTML);
+// sec.innerText='dsfs';
+// console.log(sec.innerHTML, sec.innerText);
