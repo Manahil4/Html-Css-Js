@@ -15,3 +15,6 @@ h2{
 button{
     background-color: blue;
 }
+#heading{
+    visibility: hidden;
+}

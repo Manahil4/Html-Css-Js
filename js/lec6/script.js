@@ -52,3 +52,10 @@
 // console.dir(sec.innerHTML);
 // sec.innerText='dsfs';
 // console.log(sec.innerHTML, sec.innerText);
+
+let para=document.querySelectorAll("p");
+para.forEach(para =>{
+    console.log(para.innerText);
+});
+let hid=document.getElementById("heading");
+console.log(hid);
