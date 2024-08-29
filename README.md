@@ -1,2 +1,2 @@
 Web Development Course
-Currently focusing on Frontend 
+Currently focusing on Frontend using html css and js
